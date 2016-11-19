@@ -1,0 +1,1 @@
+export { kaiFanRouter } from './kaifan';
