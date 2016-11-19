@@ -1,7 +1,3 @@
-// import * as kaiFanProxy from './kaifan'
-// export { kaiFanProxy };
-import { KaiFanUserModel } from '../model/index';
+import * as KaiFanProxy from './kaifan';
 
-KaiFanUserModel.find((err, doc) => {
-    err ? console.error(err) : console.log(doc);
-});
+export { KaiFanProxy };

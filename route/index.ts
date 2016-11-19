@@ -1,1 +1,1 @@
-export { kaiFanRouter } from './kaifan';
+export { KaiFanRouter } from './kaifan';
