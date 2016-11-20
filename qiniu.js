@@ -11,7 +11,7 @@ qiniu.conf.SECRET_KEY = 'nldLZuR8N38LesVt0eAJRYdE_ybZ55CwKXHV4jag';
 var bucket = 'topshadow';
 
 //上传到七牛后保存的文件名
-var key = 'package.json';
+var key = 'package.jso';
 
 //构建上传策略函数
 function uptoken(bucket, key) {

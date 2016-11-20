@@ -6,7 +6,7 @@ import { getAllUser, getUserByUsername } from './service/kaifan';
 
 var App = Express();
 App.use('/kaifan', KaiFanRouter);
-App.use(Express.static(__dirname));// static   server 静态文件服务器
+App.use(Express.static(__dirname + '/public'));// static   server 静态文件服务器
 // App.use(MethodOverride()); 方法覆盖,一般不用也可以
 
 
